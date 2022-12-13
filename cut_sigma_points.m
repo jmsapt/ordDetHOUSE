@@ -1,4 +1,9 @@
-addpath('../CUTpoints-master/')
+% CUTpoints submodule name
+
+% CUT is directory where sigma points are stored
+mkdir CUT
+
+addpath('./CUTpoints/')
 
 for n = 1:20
     
@@ -26,4 +31,4 @@ for n = 1:20
     
 end
 
-rmpath('../CUTpoints-master/')
+rmpath('./CUTpoints/')
