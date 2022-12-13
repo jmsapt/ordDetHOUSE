@@ -19,15 +19,7 @@ g++ -o projectile.exe projectile.cpp -I.. -I./../eigen ../house.a \
 
 cd ..
 
-# Compile rigid body example
-echo "Compiling rigid body..."
 
-cd rigid_body
-
-g++ -o rigid_body.exe rigid_body.cpp -I.. -I./../eigen ../house.a \
-             -O3 -g -Wall -pedantic
-
-cd ..
 
 # Compile coordinated turn example with Gaussian noise
 echo "Compiling CT with Gaussian Noise..."
